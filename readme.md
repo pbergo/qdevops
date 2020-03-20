@@ -48,5 +48,6 @@ public class mylist : iqlikcommand
 		{
 			output.WriteLine($"TEST - {item.AppId}");
 		}
-	}}
+	}
+}
 ```
