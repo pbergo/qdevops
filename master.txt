@@ -1,0 +1,7 @@
+﻿{
+  "file": "master.txt",
+  "user": "qlikmaster\\qlikadmin",
+  "pass": "qa@123!@#",
+  "uri": "https://qlikmaster/",
+  "cert":""
+}
