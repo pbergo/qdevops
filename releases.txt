@@ -1,0 +1,26 @@
+﻿2020-05-14
+* New - Criação do comando 'update'
+* New - Criação do comando 'version'
+* New - Criação do projeto 'qdevopsupdater', que atualiza o qdevops
+
+2020-05-06
+* New - Criação do comando 'script', com opção 'save' e 'reload'
+
+2020-05-05
+* Del - Removido os campos 'cc' e 'bcc' da classe 'task' e do comando 'taskadd'.
+* New - Adicionada a função 'List<taskmessage> GetMessages' em 'task' que retorna todas as mensagem a serem enviadas e seus respectivos arquivos e destinatários
+
+
+2020-05-04
+* New - Criação da função 'GetSelection2Make' no objeto 'task', para facilitar o desenvolvimento
+* New - Criação do commando 'listbookmark' para exibir os bookmarks de um App
+
+
+2020-04-20
+* New - Criação desse arquivo de novidades da aplicação
+* New - Foi adicionado um diretório temporário na classe 'qlikcommandconfig'
+* Bug - Quando a quantidade de parâmetros cadastrados não bate com a quantidade de parâmetros informados, não mais gera um erro
+
+
+Antes
+* Lançamento do qdevops
