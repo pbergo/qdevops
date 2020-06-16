@@ -1,4 +1,4 @@
-﻿# qdevops
+﻿qdevops
 App to easily automate Qlik Sense operations. 
 Import and Export variables between apps, master dimensions, measures and more.
 
@@ -40,8 +40,7 @@ public class mylist : iqlikcommand
 {
 	public string CommandId => "w|mylist";
 	public string HelpTip => "TEST - List all Apps from current Qlik server";
-	public TextWriter output { get; set; }
-	public void Execute(string command, ref ILocation loc)
+	public void Execute((JObject args, ref ILocation loc, qlikcommandconfig conf))
 	{
 		IEnumerable<IAppIdentifier> apps_info = loc.GetAppIdentifiers();
 		foreach (var item in apps_info)
